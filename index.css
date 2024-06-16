@@ -1,0 +1,25 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .background-container {
+    background-image: url("C:\Users\LENOVO\Desktop\Aadi Foundation\Assignment2\bg1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 140vh; /* Set the height to cover the viewport */
+    position: relative; /* Allows absolute positioning for text */
+  }
+  
+  .recipe-container {
+    position: absolute; /* Position the container on top of the background */
+    top: 70%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust positioning as needed */
+    width: 600px; /* Set a width for the container */
+    background-color: rgba(67, 66, 66, 0.5); /* Optional: Semi-transparent background for contrast (adjust opacity) */
+    padding: 20px; /* Add padding for content */
+    color: white; /* Set text color to white */
+    text-align: center; /* Optional: Center text horizontally */
+    z-index: 1; /* Ensure the container is above the background image */
+  }
